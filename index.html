@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3X7WQRJNLY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3X7WQRJNLY");
+    </script>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Sleep PSA</title>
+  </head>
+  <body>
+    <main>
+      <!-- Video Embed -->
+      <section class="video-container">
+        <h2>3 tips for better sleep</h2>
+
+        <!-- prettier-ignore -->
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LdhJAYErGos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+
+      <!-- Calculator -->
+      <section class="calc">
+        <div class="calc-container">
+          <h2>How much sleep do you need?</h2>
+  
+          <div class="age-input">
+            <label for="age">Enter your age</label>
+            <input type="number" name="age" id="ageInput" min="1">
+          </div>
+
+          <p id="ageOutput">Enter a number greater than 0.</p>
+
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/calculator.js"></script>
+  </body>
+</html>

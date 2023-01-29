@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap");
+
+main {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: #f6e9c0;
+  font-size: 2.5em;
+  font-weight: 800;
+  text-align: center;
+
+  margin: 0;
+}
+
+.video-container {
+  background-color: #e8bcb2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+
+  padding: 2.5em 0 5em 0;
+}
+
+.video-container h2 {
+  color: #df7255;
+  font-size: 3.5em;
+}
+
+.video-container iframe {
+  height: 550px;
+  width: 90%;
+}
+
+section.calc {
+
+  color: #f6e9c0;
+  background-color: #714037;
+}
+
+.calc-container {
+
+  width: 100%;
+  max-width: 800px;
+  /* display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 2em; */
+
+  margin: 0 auto;
+  /* padding: 2em; */
+  padding: 5em 0 5em 0;
+}
+
+.calc-container label {
+  margin-bottom: 0.15em;
+}
+
+.calc-container input {
+  width: 80px;
+  height: 40px;
+
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+.age-input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+  margin-top: 2em;
+}
+
+.calc-container p {
+  color: #df7255;
+  text-align: center;
+
+  margin-top: 2em;
+}
