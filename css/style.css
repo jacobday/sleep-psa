@@ -22,7 +22,7 @@ h2 {
   flex-direction: column;
   gap: 2em;
 
-  padding: 2.5em 0 5em 0;
+  padding: 2.5em 1em 5em 1em;
 }
 
 .video-container h2 {
@@ -31,29 +31,24 @@ h2 {
 }
 
 .video-container iframe {
-  height: 550px;
+  height: 80vh;
+  max-height: 550px;
   width: 90%;
 }
 
 section.calc {
-
   color: #f6e9c0;
   background-color: #714037;
 }
 
 .calc-container {
-
   width: 100%;
   max-width: 800px;
-  /* display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  gap: 2em; */
 
   margin: 0 auto;
-  /* padding: 2em; */
-  padding: 5em 0 5em 0;
+  padding: 5em 1em;
+
+  box-sizing: border-box;
 }
 
 .calc-container label {
@@ -73,11 +68,12 @@ section.calc {
   align-items: center;
   flex-direction: column;
 
-
   margin-top: 2em;
 }
 
 .calc-container p {
+  min-height: 1em;
+
   color: #df7255;
   text-align: center;
 
